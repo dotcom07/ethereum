@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getCalldataAtIndex",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCalldataSize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CALLDATA.sol": "CalldataOperation"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CALLDATA.sol": {
+			"keccak256": "0x79659eb6ee2db0ae918a83ba013ffb4c2e839a1161ccf1443ffd2ac0d6558abb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b7e2de20adeba3fe51eb851e213a1d0a3f8d718cde9f1b5b1139c48a17eb13f",
+				"dweb:/ipfs/QmdybQmrHRFDAF3i5X1dbGeLmgTJztkibHRT4xaHEJm3nU"
+			]
+		}
+	},
+	"version": 1
+}
